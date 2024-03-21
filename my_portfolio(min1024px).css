@@ -1,0 +1,201 @@
+@media screen and (min-width: 1024px)
+{
+    body
+    {
+        width: 100%;
+        display: grid;
+        place-content: center;
+        background:rgba(32, 33, 36, 0.923);
+        color: white;
+    }
+    header
+    {
+        display: grid;
+        place-content: center;
+        background: linear-gradient(45deg, #0275d8, deepskyblue);
+        width: 98.5vw;
+        height: 70px;
+        /* border: 1px solid maroon; */
+    }
+    header > nav
+    {
+        width: 1000px;
+        /* border: 1px solid grey; */
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 0px;
+        height: 70px;
+        border-bottom: none;
+        /* display: flex;
+        justify-content: space-between; */
+    }
+    header > nav > h1
+    {
+        padding: 10px 0px 0px;
+        /* font-style: italic; */
+    }
+    header > nav > div
+    {
+        padding: 15px 0px 0px;
+        /* border: 1px solid grey; */
+        width: 250px;
+        display: flex;
+        justify-content: space-between;
+    }
+    header > nav > div > a
+    {
+        text-decoration: none;
+        color: white;
+    }
+    .fa-bars
+    {
+        display: none;
+    }
+    main
+    {
+        /* border: 1px solid grey; */
+        display: grid;
+        place-content: center;
+        width: 98.5vw;
+        /* background: linear-gradient(95deg, #0275d8, deepskyblue); */
+    }
+    main > .first_sec
+    {
+        width: 98.5vw;
+        /* border: 1px solid grey; */
+        display: grid;
+        place-content: center;
+        /* padding: 0px 20px; */
+        /* height: 380px; */
+        /* display: grid; */
+        background: linear-gradient(95deg, #0275d8, deepskyblue);
+    }
+    main > .first_sec > div
+    {
+        width: 1000px;
+        height: 400px;
+        display: flex;
+        /* background: linear-gradient(95deg, #0275d8, deepskyblue); */
+        /* border: 1px solid dodgerblue; */
+    }
+    .first_sec
+    {
+        /* border: 1px solid white; */
+        display: flex;
+        justify-content: space-between;
+    }
+    main > .first_sec > div:first-child > div
+    {
+        width: 500px;
+        /* border: 1px solid white; */
+        /* flex-grow: 1; */
+        /* display: flex; */
+        align-items: center;
+        padding: 15px 0px;
+        /* border: 3px solid maroon; */
+    }
+
+    main > .first_sec > div:first-child > div:first-child
+    {
+        width: 700px;
+        margin-top: 10px;
+        /* border: 3px solid maroon; */
+    }
+    /* main > section > div:first-child > div:first-child > h1
+    {
+        font-weight: bolder;
+    } */
+    .author_image
+    {
+        background: url('./Female-College-Student-PNG-Photo.png');
+        background-size: 100% 100%;
+        /* border: 1px solid grey; */
+        background-repeat: no-repeat;
+        transition: 1s;
+        /* width: 300px; */
+    }
+    .second_sec
+    {
+        width: inherit;
+        display: grid;
+        place-content: center;
+        /* border: 1px solid lightgray; */
+    }
+    .cards
+    {
+        width: 1000px;
+        /* border: 1px solid dodgerblue; */
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        margin: 40px 0px 40px;
+    }
+    .card
+    {
+        background: transparent;
+        cursor: pointer;
+        transition: 1s;
+        /* border: 1px solid white; */
+    }
+    .card-header, .card-footer
+    {
+        transition: 1s;
+    }
+    .card-body{
+        margin: 20px 10px;
+    }
+    .card-img-top
+    {
+        border: none;
+    }
+    .card-footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 3px 5px;
+    }
+    footer
+    {
+        /* border: 1px solid grey; */
+        display: grid;
+        place-content: center;
+    }
+    footer > section
+    {
+        width: 1000px;
+        display: grid;
+        place-content: center;
+        /* padding: 0px 20px; */
+        /* min-height: 200px; */
+        padding: 10px 0px 20px;
+    }
+    .portfolio_footer
+    {
+        height: 40px;
+        /* border-radius: 0px 30px 30px 0px; */
+        padding: 5px 10px;
+        /* border: 1px solid grey; */
+    }
+    .footer_text{
+        padding-top: 10px;
+        /* border: 1px solid grey; */
+        padding: 0px 30px;
+        margin-top: 10px;
+        /* width: 700px; */
+    }
+    .icons
+    {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+    .icons > a:first-child
+    {
+        margin-left: 0px;
+    }
+    .icons > a {
+        text-decoration: none;
+        margin-left: 20px;
+        font-size: 25px;
+        color: grey;
+    }
+}
