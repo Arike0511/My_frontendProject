@@ -128,4 +128,7 @@
         min-height: 400px;
         display: grid;
     }
+    .overflow{
+        display: none;
+    }
 }

@@ -2,6 +2,9 @@
 
 addEventListener('DOMContentLoaded', ()=>{
     let card_parent = document.querySelector(".cards");
+    let fa_bars = document.querySelector('.fa-bars');
+    let fa_exit = document.querySelector('.fa-close');
+    let overflow = document.querySelector('.overflow');
 
     function create_card(title, img, text)
     {
@@ -91,6 +94,18 @@ addEventListener('DOMContentLoaded', ()=>{
             all_cards_footer[a].setAttribute('class', 'card-footer p-2 text-center text-white bg-dark')
         })
     }
+
+    let all_icons = [fa_bars, fa_exit];
+    all_icons.forEach((icon) => {
+        icon.addEventListener('click', ()=>{
+            overflow.classList.toggle('hide');
+        })
+    })
+
+    fa_bars.addEventListener('click', ()=>{
+        overflow.classList.toggle('hide');
+        fa_bars.classList.toggle('fa-bars')
+    })
 });
 
 function change_image() {

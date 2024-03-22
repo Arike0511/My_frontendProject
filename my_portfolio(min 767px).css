@@ -41,7 +41,7 @@
     {
         text-decoration: none;
     }
-    .fa-bars
+    .fa-bars, .fa-close
     {
         margin: 20px 0px;
         font-size: 25px;
@@ -65,7 +65,14 @@
     .adjust
     {
         /* width: 1000px; */
-        padding: 0px 17px;
+        padding: 0px 15px;
+    }
+    .sub_title
+    {
+        font-size: 30px;
+    }
+    .sub_text{
+        font-size: 15px;
     }
     .cards
     {
@@ -135,5 +142,33 @@
         margin-left: 20px;
         font-size: 25px;
         color: grey;
+    }
+    .overflow{
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        transition: 1s;
+        display: grid;
+        place-content: center;
+        height: 100%;
+        width: 150px;
+        visibility: visible;
+    }
+    .overflow > nav{
+        display: grid;
+        place-content: center;
+    }
+    .overflow > nav > a{
+        color: white;
+        text-decoration: none;
+    }
+    .overflow > nav > a:hover{
+        color: dodgerblue;
+        text-decoration: underline;
+    }
+    .hide{
+        width: 0;
+        visibility: hidden;
     }
 }

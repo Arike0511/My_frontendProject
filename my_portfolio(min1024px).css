@@ -198,4 +198,7 @@
         font-size: 25px;
         color: grey;
     }
+    .overflow{
+        display: none;
+    }
 }
