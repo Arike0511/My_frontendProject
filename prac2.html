@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=scv, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        "use strict"
+        let calculator = {
+            sum() {
+                return this.a + this.b;
+            },
+
+            mul() {
+              return this.a * this.b;
+            },
+
+            result() {
+                this.a = +prompt("a?", 0);
+                this.b = +prompt("b?",0);
+            }
+        };
+
+        calculator.result();
+        alert(calculator.sum());
+        alert(calculator.mul());
+    </script>
+</body>
+</html>

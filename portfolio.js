@@ -34,7 +34,7 @@ addEventListener('DOMContentLoaded', ()=>{
 
         card_image.setAttribute('class', 'card-img-top');
         card_image.style.background = `url(${img})`;
-        card_image.style.backgroundSize = 'contain';
+        card_image.style.backgroundSize = '100% 100%';
         card_image.style.height = '170px'
 
         card_footer.setAttribute('class', 'card-footer bg-dark p-2 text-center text-white');
