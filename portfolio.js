@@ -1,5 +1,4 @@
 'use strict'
-
 addEventListener('DOMContentLoaded', ()=>{
     let card_parent = document.querySelector(".cards");
     let fa_bars = document.querySelector('.fa-bars');
